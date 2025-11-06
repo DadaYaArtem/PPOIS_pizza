@@ -1,6 +1,6 @@
-package com.ppois.pizzeria.domain.menu;
+package org.pizzeria.domain.menu;
 
-import com.ppois.pizzeria.domain.common.*;
+import org.pizzeria.domain.common.*;
 
 import java.util.ArrayList;
 import java.util.Collections;

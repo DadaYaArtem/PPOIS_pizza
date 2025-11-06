@@ -1,7 +1,7 @@
-package com.ppois.pizzeria.domain.menu;
+package org.pizzeria.domain.menu;
 
-import com.ppois.pizzeria.domain.common.MenuCategory;
-import com.ppois.pizzeria.domain.common.Money;
+import org.pizzeria.domain.common.MenuCategory;
+import org.pizzeria.domain.common.Money;
 
 import java.util.UUID;
 

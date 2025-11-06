@@ -1,4 +1,4 @@
-package com.ppois.pizzeria.domain.common;
+package org.pizzeria.domain.common;
 
 /**
  * Статус заказа (для State Pattern)

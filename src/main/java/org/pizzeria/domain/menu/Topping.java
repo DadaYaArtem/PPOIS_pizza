@@ -1,6 +1,6 @@
-package com.ppois.pizzeria.domain.menu;
+package org.pizzeria.domain.menu;
 
-import com.ppois.pizzeria.domain.common.Money;
+import org.pizzeria.domain.common.Money;
 
 /**
  * Топпинг (добавка) для пиццы.

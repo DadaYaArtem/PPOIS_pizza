@@ -1,9 +1,9 @@
-package com.ppois.pizzeria.domain.user;
+package org.pizzeria.domain.user;
 
-import com.ppois.pizzeria.domain.common.Email;
-import com.ppois.pizzeria.domain.common.Location;
-import com.ppois.pizzeria.domain.common.Money;
-import com.ppois.pizzeria.domain.common.PhoneNumber;
+import org.pizzeria.domain.common.Email;
+import org.pizzeria.domain.common.Location;
+import org.pizzeria.domain.common.Money;
+import org.pizzeria.domain.common.PhoneNumber;
 
 import java.util.ArrayList;
 import java.util.Collections;

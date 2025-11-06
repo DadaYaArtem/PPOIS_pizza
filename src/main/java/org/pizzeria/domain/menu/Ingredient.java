@@ -1,4 +1,4 @@
-package com.ppois.pizzeria.domain.menu;
+package org.pizzeria.domain.menu;
 
 import java.util.Objects;
 import java.util.UUID;
