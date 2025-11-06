@@ -54,7 +54,7 @@ public class MenuItemFactory {
             return createDrink("Water", "Still mineral water", 500, 1.50, false);
         }
 
-        public static Drink createSparkling Water() {
+        public static Drink createSparklingWater() {
             return createDrink("Sparkling Water", "Carbonated mineral water", 500, 1.75, true);
         }
 

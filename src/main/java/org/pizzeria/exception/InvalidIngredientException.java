@@ -1,4 +1,4 @@
-package com.ppois.pizzeria.exception;
+package org.pizzeria.exception;
 
 /**
  * Исключение при работе с невалидным ингредиентом

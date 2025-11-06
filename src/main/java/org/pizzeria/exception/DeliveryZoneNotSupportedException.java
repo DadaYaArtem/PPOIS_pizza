@@ -1,5 +1,5 @@
 
-package com.ppois.pizzeria.exception;
+package org.pizzeria.exception;
 
 /**
  * Исключение когда адрес не входит в зону доставки

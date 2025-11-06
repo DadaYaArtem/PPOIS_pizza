@@ -84,9 +84,9 @@ public class PizzaFactory {
             "Classic pizza with tomato sauce, mozzarella, and basil",
             DoughType.TRADITIONAL,
             Money.of(8.99),
-            new Topping(new Ingredient("Tomato Sauce", true), Money.of(0.50)),
-            new Topping(new Ingredient("Mozzarella", true), Money.of(1.50)),
-            new Topping(new Ingredient("Fresh Basil", true), Money.of(0.50))
+            new Topping(new Ingredient("Tomato Sauce", 0.0), Money.of(0.50)),
+            new Topping(new Ingredient("Mozzarella", 0.0), Money.of(1.50)),
+            new Topping(new Ingredient("Fresh Basil", 0.0), Money.of(0.50))
         ));
 
         // Пепперони
@@ -95,9 +95,9 @@ public class PizzaFactory {
             "Classic pepperoni pizza with tomato sauce and mozzarella",
             DoughType.TRADITIONAL,
             Money.of(10.99),
-            new Topping(new Ingredient("Tomato Sauce", true), Money.of(0.50)),
-            new Topping(new Ingredient("Mozzarella", true), Money.of(1.50)),
-            new Topping(new Ingredient("Pepperoni", true), Money.of(2.00))
+            new Topping(new Ingredient("Tomato Sauce", 0.0), Money.of(0.50)),
+            new Topping(new Ingredient("Mozzarella", 0.0), Money.of(1.50)),
+            new Topping(new Ingredient("Pepperoni", 0.0), Money.of(2.00))
         ));
 
         // Гавайская
@@ -106,10 +106,10 @@ public class PizzaFactory {
             "Tropical pizza with ham and pineapple",
             DoughType.TRADITIONAL,
             Money.of(11.99),
-            new Topping(new Ingredient("Tomato Sauce", true), Money.of(0.50)),
-            new Topping(new Ingredient("Mozzarella", true), Money.of(1.50)),
-            new Topping(new Ingredient("Ham", true), Money.of(2.00)),
-            new Topping(new Ingredient("Pineapple", true), Money.of(1.00))
+            new Topping(new Ingredient("Tomato Sauce", 0.0), Money.of(0.50)),
+            new Topping(new Ingredient("Mozzarella", 0.0), Money.of(1.50)),
+            new Topping(new Ingredient("Ham", 0.0), Money.of(2.00)),
+            new Topping(new Ingredient("Pineapple", 0.0), Money.of(1.00))
         ));
 
         // Четыре сыра
@@ -118,10 +118,10 @@ public class PizzaFactory {
             "Rich cheese pizza with four types of cheese",
             DoughType.TRADITIONAL,
             Money.of(12.99),
-            new Topping(new Ingredient("Mozzarella", true), Money.of(1.50)),
-            new Topping(new Ingredient("Parmesan", true), Money.of(1.50)),
-            new Topping(new Ingredient("Gorgonzola", true), Money.of(1.50)),
-            new Topping(new Ingredient("Goat Cheese", true), Money.of(1.50))
+            new Topping(new Ingredient("Mozzarella", 0.0), Money.of(1.50)),
+            new Topping(new Ingredient("Parmesan", 0.0), Money.of(1.50)),
+            new Topping(new Ingredient("Gorgonzola", 0.0), Money.of(1.50)),
+            new Topping(new Ingredient("Goat Cheese", 0.0), Money.of(1.50))
         ));
 
         // Вегетарианская
@@ -130,12 +130,12 @@ public class PizzaFactory {
             "Healthy pizza with fresh vegetables",
             DoughType.TRADITIONAL,
             Money.of(10.99),
-            new Topping(new Ingredient("Tomato Sauce", true), Money.of(0.50)),
-            new Topping(new Ingredient("Mozzarella", true), Money.of(1.50)),
-            new Topping(new Ingredient("Bell Peppers", true), Money.of(1.00)),
-            new Topping(new Ingredient("Mushrooms", true), Money.of(1.00)),
-            new Topping(new Ingredient("Onions", true), Money.of(0.50)),
-            new Topping(new Ingredient("Olives", true), Money.of(0.75))
+            new Topping(new Ingredient("Tomato Sauce", 0.0), Money.of(0.50)),
+            new Topping(new Ingredient("Mozzarella", 0.0), Money.of(1.50)),
+            new Topping(new Ingredient("Bell Peppers", 0.0), Money.of(1.00)),
+            new Topping(new Ingredient("Mushrooms", 0.0), Money.of(1.00)),
+            new Topping(new Ingredient("Onions", 0.0), Money.of(0.50)),
+            new Topping(new Ingredient("Olives", 0.0), Money.of(0.75))
         ));
 
         // Мясная
@@ -144,12 +144,12 @@ public class PizzaFactory {
             "Ultimate meat pizza with multiple meat toppings",
             DoughType.TRADITIONAL,
             Money.of(13.99),
-            new Topping(new Ingredient("Tomato Sauce", true), Money.of(0.50)),
-            new Topping(new Ingredient("Mozzarella", true), Money.of(1.50)),
-            new Topping(new Ingredient("Pepperoni", true), Money.of(2.00)),
-            new Topping(new Ingredient("Sausage", true), Money.of(2.00)),
-            new Topping(new Ingredient("Bacon", true), Money.of(2.00)),
-            new Topping(new Ingredient("Ham", true), Money.of(2.00))
+            new Topping(new Ingredient("Tomato Sauce", 0.0), Money.of(0.50)),
+            new Topping(new Ingredient("Mozzarella", 0.0), Money.of(1.50)),
+            new Topping(new Ingredient("Pepperoni", 0.0), Money.of(2.00)),
+            new Topping(new Ingredient("Sausage", 0.0), Money.of(2.00)),
+            new Topping(new Ingredient("Bacon", 0.0), Money.of(2.00)),
+            new Topping(new Ingredient("Ham", 0.0), Money.of(2.00))
         ));
     }
 

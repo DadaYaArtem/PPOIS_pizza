@@ -1,5 +1,5 @@
 
-package com.ppois.pizzeria.exception;
+package org.pizzeria.exception;
 
 /**
  * Исключение при попытке отменить заказ, который нельзя отменить

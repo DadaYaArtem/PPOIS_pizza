@@ -1,4 +1,4 @@
-package com.ppois.pizzeria.exception;
+package org.pizzeria.exception;
 
 /**
  * Исключение при ошибке обработки платежа

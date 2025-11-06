@@ -1,9 +1,9 @@
-package com.ppois.pizzeria.domain.order;
+package org.pizzeria.domain.order;
 
-import com.ppois.pizzeria.domain.common.Money;
-import com.ppois.pizzeria.domain.common.OrderStatus;
-import com.ppois.pizzeria.domain.menu.MenuItem;
-import com.ppois.pizzeria.domain.user.Customer;
+import org.pizzeria.domain.common.Money;
+import org.pizzeria.domain.common.OrderStatus;
+import org.pizzeria.domain.menu.MenuItem;
+import org.pizzeria.domain.user.Customer;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

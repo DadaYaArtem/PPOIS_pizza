@@ -1,6 +1,6 @@
-package com.ppois.pizzeria.domain.order;
+package org.pizzeria.domain.order;
 
-import com.ppois.pizzeria.domain.common.Money;
+import org.pizzeria.domain.common.Money;
 
 import java.time.LocalDate;
 import java.util.Objects;
